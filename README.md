@@ -58,3 +58,6 @@ By pressing enter (after the first 3 images appear), the program will randomly d
 #### For part 3:
 ______________________________________________________________
 Part 3 only runs on Linux.  You will need a fingerprint sensor compatible with pyfingerprint and you need to install the pyfingerprint library (which also requires the pyserial3 library).  The user is prompted to place their thumb on the sensor and an image of the user's thumbprint is saved.  This portion of the application essentially does the same thing as part 2 except the processed image is the one collected by the sensor.  I used the FlashTree Green Light Optical Fingerprint Sensor connected to a USB to TTL serial converter.  
+
+## Credits
+The library uses OpenCV for the image processing and pyfingerprint (github.com/bastianraschke/pyfingerprint) for the capturing of the fingerprint images.  The python implementation of Shamir's Secret Sharing Scheme has been slightly modified from a version released into the Public Domain under the terms of CC0 and OWFa.  Techniques for the collection of fingerprint data came from the book "OpenCV 3 Blueprints" by Joseph Howse.
