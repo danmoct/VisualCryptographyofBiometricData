@@ -3,6 +3,7 @@
 
 
 ## Description
+This was my final project for my Data Privacy and Security class. One of the cryptographic techniques that we studied was Shamir's Secret Sharing Scheme. The (t,n) sharing scheme splits a secret into n unique pieces/"shares" that contain information to "reconstruct" the secret. The secret can only be reconstructed if information from at least t shares are combined. In this application, pixels from an image are encrypted using the (t,n) sharing scheme, resulting in n new images. By combining t of these n images, the original image can be restored.  
 
 
 ## Installation
